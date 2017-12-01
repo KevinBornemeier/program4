@@ -1,0 +1,9 @@
+errors: 
+
+*simpleMoveNeg in circle1test found an error. Offset was off.
+	before fix: center.y = center.y + xOffset; 
+	after fix:  center.y = center.y + yOffset;
+
+*error found with scale method in circle.java -- it was not scaling to expected output.
+	before fix: radius = radius + factor;
+	after fix:  radius = radius * factor;
